@@ -1,0 +1,115 @@
+
+body {
+    font-family:  'Open Sans Condensed', sans-serif;arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: mediumvioletred;
+}
+
+a:link {
+    color: #567;
+}
+
+a:visited {
+    color: #567;
+}
+
+
+.nav{
+    display: inline-block;
+    padding: 10px 0px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #bbb;
+    font-family: 'Open Sans Condensed', sans-serif;arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: #567;
+    word-spacing: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav li{
+    display: inline-block;
+}
+.welcome{
+    font-family: 'Arapey', serif;
+    font-style: italic;
+    background-image: url("../images/background_pineapple.jpg");
+    height: 840px;
+    color: white;
+}
+
+.welcome p {
+    font-family: 'Arapey', serif;
+}
+
+#name{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+#personal{
+    font-size: 30px;
+}
+
+#name, #personal{
+    margin-left: 150px;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.portfolio, .experience, .contact{
+    font-size: 20px;
+    text-align: justify;
+    color: #567;
+    margin: 150px;
+}
+
+#category{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #bbb;
+}
+
+.description{
+    padding: 30px 0 0 60px;
+
+    background: url("../images/questionmark.png") no-repeat center left;
+}
+
+.description-sotrender{
+    padding-left: 150px;
+    background: url("../images/sotrender.png") no-repeat center left;
+}
+
+.description-optimise{
+    padding-left: 150px;
+    background: url("../images/optimise.png") no-repeat center left;
+}
+
+.description-valuemedia{
+    padding-left: 150px;
+    background: url("../images/valuemedia.png") no-repeat center left;
+}
+
+.contact{
+    text-align: center;
+}
+
+.photo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
